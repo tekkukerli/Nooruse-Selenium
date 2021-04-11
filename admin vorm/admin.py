@@ -12,9 +12,6 @@ last_names=('Johnson','Smith','Williams', 'Smith', 'Jones',	'Taylor','Brown','Wi
 
 randomName =" ".join(random.choice(last_names)+", "+random.choice(first_names) for _ in range(1))
 
-
-print(randomName)
-
 options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = webdriver.Chrome(options=options)
