@@ -37,7 +37,7 @@ time.sleep(0.5)
 author = driver.find_element_by_id('menu-item-72')
 author.click()
 
-time.sleep(0.5)
+time.sleep(1)
 
 pageThree = driver.find_element_by_xpath('//*[@id="page"]/div[2]/div/div[1]/div/div/div[2]/div/ul/li[4]')
 pageThree.click()
@@ -57,7 +57,7 @@ time.sleep(0.5)
 title = driver.find_element_by_id('menu-item-70')
 title.click()
 
-time.sleep(0.5)
+time.sleep(1)
 
 nextButton2 = driver.find_element_by_class_name('active.fa.fa-arrow-right')
 nextButton2.click()

@@ -40,7 +40,7 @@ time.sleep(1)
 nextButton2 = driver.find_element_by_class_name('VfPpkd-LgbsSe.VfPpkd-LgbsSe-OWXEXe-k8QpJ.VfPpkd-LgbsSe-OWXEXe-dgl2Hf.nCP5yc.AjY5Oe.DuMIQc.qIypjc.TrZEUc.lw1w4b')
 nextButton2.click()
 
-time.sleep(1)
+time.sleep(2)
 
 menu = driver.find_element_by_id('menu-item-102')
 menu.click()
